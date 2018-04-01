@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700" rel="stylesheet">
+
+        <style>
+            * {
+                font-family: 'Raleway';
+                color: #212121;
+            }
+
+            html {
+                font-size: 16px;
+            }
+
+            #wrapper {
+                width: 50rem;
+                height: 30rem;
+
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                margin: auto;
+
+                max-width: 100%;
+                max-height: 100%;
+            }
+
+            h1 {
+                font-size: 8rem;
+                margin: 1rem 0;
+            }
+
+            #bar {
+                display: inline-block;
+                width: 22rem;
+                height: .7rem;
+                background-color: #22A7F0;
+            }
+
+            p {
+                font-size: 2rem;
+            }
+
+            a {
+                font-weight: 600;
+                text-decoration: none;
+            }
+
+            a:hover {
+                border-bottom: 3px solid #22A7F0;
+            }
+
+            @media (max-width: 768px) {
+                html {
+                    font-size: 12px;
+                }
+
+                #wrapper {
+                    width: 35rem;
+                    height: 25rem;
+                }
+
+                p {
+                    font-size: 1.5rem;
+                }
+            }
+
+            @media (max-width: 405px) {
+                #wrapper {
+                    width: 25rem;
+                }
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+            <h1>Hello</h1>
+
+            <span id="bar"></span>
+
+            <p id="email">
+                Why not drop me a line at <a href="mailto:hello@nicokratky.me">hello@nicokratky.me</a>?
+            </p>
+            <p id="social">
+                <a href="https://twitter.com/nicokratky">twitter</a>
+                <a href="https://github.com/nicokratky">github</a>
+                <a href="https://500px.com/nicokratky">500px</a>
+            </p>
+        </div>
+    </body>
+</html>
